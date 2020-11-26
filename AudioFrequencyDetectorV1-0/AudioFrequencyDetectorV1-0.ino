@@ -23,7 +23,7 @@
 #include "arduinoFFT.h"
 
 #define SAMPLES 128             //SAMPLES-pt FFT. Must be a base 2 number. Max 128 for Arduino Uno.
-#define SAMPLING_FREQUENCY 2048 //Ts = Based on Nyquist, must be 2 times the highest expected frequency.
+#define SAMPLING_FREQUENCY 1043 //Ts = Based on Nyquist, must be 2 times the highest expected frequency.
 
 arduinoFFT FFT = arduinoFFT();
 
@@ -46,7 +46,7 @@ void loop()
   {
     microSeconds = micros();    //Returns the number of microseconds since the Arduino board began running the current script.
 
-    vReal[i] = analogRead(7); //Reads the value from analog pin 0 (A0), quantize it and save it as a real term.
+    vReal[i] = analogRead(3); //Reads the value from analog pin 0 (A0), quantize it and save it as a real term.
     vImag[i] = 0; //Makes imaginary term 0 always
 
     /*remaining wait time between samples if necessary*/
@@ -66,6 +66,6 @@ void loop()
   Serial.println(peak);     //Print out the most dominant frequency.
 
   /*Script stops here. Hardware reset required.*/
-  //while (5); //do one time
-  delay(200);
+  while (1); //do one time
+  //delay(200);
 }
