@@ -8,4 +8,4 @@ The system should be able to detect notes at least 10 feet away.
 The system should also have less than 0.2 volts of amplitude when not stimulated and more than 1 volt when it is stimulated.
 The system should have a minimum SNR of 20.
 
-The report shows the results of this system as well as the power vs frequency spectrum.
+The report shows the results of this system, all code used for the project, as well as the power vs frequency spectrum.
