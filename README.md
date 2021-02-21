@@ -9,3 +9,5 @@ The system should also have less than 0.2 volts of amplitude when not stimulated
 The system should have a minimum SNR of 20.
 
 The report shows the results of this system, all code used for the project, as well as the power vs frequency spectrum.
+
+An overview video of the project can be found here: https://media.oregonstate.edu/media/t/1_tivwak29
