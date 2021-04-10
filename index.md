@@ -1,6 +1,6 @@
 ## Project Summary
 
-This project was done over the course of about one month (November-December 2020). This project is more EE focused as it requires knowledge of circuit elements such as amplifiers, analog to digital conversion, and the Fourier Transform. An overview video of the project can be found [here](https://media.oregonstate.edu/media/t/1_tivwak29). The repository's README also provides a brief summary of the requirements.
+This project was done over the course of about one month (November-December 2020). This project is more EE focused as it requires knowledge of circuit elements such as amplifiers, analog to digital conversion, and the Fourier Transform. An overview video of the project can be found [here](https://media.oregonstate.edu/media/t/1_tivwak29). The repository's README also provides a brief summary of the requirements. Overall this project was a great introuction to microcontroller use, as through later coursework I gained a better understanding of the 8-bit AVR device that was controlling the system.
 
 ### Languages Used and the purpose of each file
 
