@@ -12,4 +12,5 @@ The requirements for the project are as follows:
 
 -The system should have a minimum SNR of 20.
 
+
 The PDF report shows the results of this system, all code used for the project, as well as the power vs frequency spectrum.
